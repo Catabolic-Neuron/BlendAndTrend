@@ -1,0 +1,10 @@
+@import url(../css/style.css);
+@import url(../css/responsiveHome.css);
+
+#page-header.blog-header {
+    background: url(../assets/banner/b19.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+

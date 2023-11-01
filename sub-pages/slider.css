@@ -1,0 +1,178 @@
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+} */
+/* body {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(to left top, #031A9A, #8B53FF);
+} */
+.sliders{
+  display:flex ;
+  flex-direction: column;
+  align-items: center;
+}
+.swipeTxt{
+  margin:0;
+  border:0;
+  padding:0;
+}
+.pageTit{
+  margin-top:15px;
+  text-align: center;
+}
+.pageDesc{
+  padding-left:20px;
+  text-align: center;
+}
+.wrapper {
+  margin:7px;
+  /* margin-left: 500px; */
+  /* margin-left: 6px; Reduced from 80px */
+  max-width: 550px; /* Reduced from 1100px */
+  /* width: 100%; */
+  /* position: relative; */
+}
+.wrapper i {
+  top: 50%;
+  height: 25px; /* Reduced from 50px */
+  width: 25px; /* Reduced from 50px */
+  cursor: pointer;
+  font-size: 1rem; /* Reduced from 1.25rem */
+  position: absolute;
+  text-align: center;
+  line-height: 25px; /* Reduced from 50px */
+  background: #A6B1E1;
+  border-radius: 50%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+  transform: translateY(-50%);
+  transition: transform 0.1s linear;
+}
+.wrapper i:active {
+  transform: translateY(-50%) scale(0.85);
+}
+.wrapper i:first-child {
+  left: -11px; /* Reduced from -22px */
+}
+.wrapper i:last-child {
+  right: -11px; /* Reduced from -22px */
+}
+.wrapper .carousel {
+  display: grid;
+  
+  border-radius: 25px;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% / 3) - 6px); /* Reduced from 12px */
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 8px; /* Reduced from 16px */
+  border-radius:4px; /* Reduced from 8px */
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+.carousel.no-transition {
+  scroll-behavior: auto;
+}
+.carousel.dragging {
+  scroll-snap-type: none;
+  scroll-behavior: auto;
+}
+.carousel.dragging .card {
+  cursor: grab;
+  user-select: none;
+}
+.carousel :where(.card, .img) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel .card {
+  scroll-snap-align: start;
+  height: 200px; /* Reduced from 342px */
+  width:154px;
+  list-style: none;
+  background: #DCD6F7;
+  cursor: pointer;
+  padding-bottom: 2px; /* Reduced from 15px */
+  flex-direction: column;
+  border-radius: 20px; /* Reduced from 8px */
+  transition:150ms;
+}
+.carousel .card:hover{
+  z-index: 100;
+  box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.182);
+}
+.card .img img {
+  /* width: 70px; Reduced from 140px */
+  height: 190px; /* Reduced from 140px */
+  border-radius: 15px; /* Reduced from 50% */
+  object-fit: cover;
+  /* border: 2px solid #fff; */
+}
+.carousel .card h2 {
+  font-weight: 500;
+  font-size: 0.78rem; /* Reduced from 1.56rem */
+  margin: 15px 0 2.5px; /* Reduced from 30px 0 5px */
+}
+.carousel .card span {
+  color: #6A6D78;
+  font-size: 0.65rem; /* Reduced from 1.31rem */
+}
+
+@media screen and (max-width: 900px) {
+  /* .wrapper{
+    margin-left:15px;
+  }
+  .wrapper .carousel {
+    grid-auto-columns: calc((100% / 2) - 4.5px);
+  } */
+}
+
+@media screen and (max-width: 600px) {
+  .carousel .card {
+    scroll-snap-align: start;
+    height: 120px; /* Reduced from 342px */
+    width:90px;
+    list-style: none;
+    background: #e3e6f3;
+    cursor: pointer;
+    padding-bottom: 2px; /* Reduced from 15px */
+    flex-direction: column;
+    border-radius: 20px; /* Reduced from 8px */
+    transition:150ms;
+  }
+
+  .card .img img {
+    /* width: 70px; Reduced from 140px */
+    height: 110px; /* Reduced from 140px */
+    border-radius: 15px; /* Reduced from 50% */
+    object-fit: cover;
+    /* border: 2px solid #fff; */
+  }
+
+  .wrapper .carousel {
+    display: grid;
+    width:300px;     /*cards ko paas laane le liye*/
+    border-radius: 25px;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% / 3) - 6px); /* Reduced from 12px */
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 8px; /* Reduced from 16px */
+    border-radius:4px; /* Reduced from 8px */
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+  }
+}
