@@ -568,9 +568,9 @@ footer .copyright {
   margin-top:10px;
 }
 
-@media screen and (max-width:477px){
+@media screen and (max-width:477px) {
   #hero {
-    background: url(../assets/hero444.png);
+    background: url(../assets/hero454.png);
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -581,9 +581,7 @@ footer .copyright {
     align-items: flex-start;
     justify-content: center;
   }
-  
-  #hero p{
-    font-size: 12px;;
+  #hero h2{
+    color:#DCD6F7
   }
-  
 }
