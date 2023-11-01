@@ -25,10 +25,10 @@ Each product has a dedicated detail page where users can view high-resolution im
 ## Technologies Used
 
 - HTML, CSS, and JavaScript for front-end development
-- Server-side scripting (e.g., Node.js, Python, Ruby) for back-end functionality
-- Relational database (e.g., MySQL, PostgreSQL) for data storage
-- Frameworks and libraries (e.g., React, Express.js) for a robust web application
-- Augmented reality technology (for the Trial Room feature)
+- Server-side scripting (e.g., Node.js, Python, Ruby) for back-end functionality {upcoming feature}
+- Relational database (e.g., MySQL, PostgreSQL) for data storage {upcoming feature}
+- Frameworks and libraries (e.g., React, Express.js) for a robust web application {upcoming feature}
+- Augmented reality technology (for the Trial Room feature) {upcoming feature}
 
 ## Getting Started
 
