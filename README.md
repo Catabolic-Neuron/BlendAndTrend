@@ -1,3 +1,4 @@
+![logo](https://github.com/Catabolic-Neuron/BlendAndTrend/assets/132699684/549a673e-5ba5-4bcc-9480-29e37efc95fa)
 # Blend&Trend E-commerce Website
 
 Welcome to Blend&Trend this is a sample static website made for practicing CSS and JavaScript as a project, your go-to destination for stylish and trendy clothing, specializing in t-shirts, pants, and shoes. This repository contains the source code for our e-commerce website, complete with various pages and features to enhance the online shopping experience. Whether you're a developer looking to contribute or a user exploring our site, we're glad you're here!
