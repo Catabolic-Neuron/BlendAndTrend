@@ -32,14 +32,16 @@ Each product has a dedicated detail page where users can view high-resolution im
 - Augmented reality technology (for the Trial Room feature) {upcoming feature}
 
 ## Getting Started
-
 1. Clone the repository to your local machine:
 
    ```
-   git clone https://github.com/yourusername/BlendAndTrendrend.git
+   git clone https://github.com/Catabolic-Neuron/BlendAndTrend.git
    ```
 
-2. Set up your development environment, ensuring you have the necessary dependencies installed.
+2. For installing dependencies.
+   ```
+   npm install
+   ```
 
 3. Start the development server:
 
